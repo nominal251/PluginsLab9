@@ -12,7 +12,7 @@ public class EnemySpawner : MonoBehaviour
 
     private void Update()
     {
-        if (Keyboard.current.rKey.isPressed)
+        if (Keyboard.current.rKey.wasPressedThisFrame)
         {
             SpawnEnemies();
         }
